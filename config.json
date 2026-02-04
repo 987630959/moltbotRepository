@@ -1,0 +1,29 @@
+# MoltBot Configuration
+
+{
+  "app_name": "MoltBot",
+  "debug": false,
+  "log_level": "INFO",
+  "max_workers": 10,
+  "max_concurrent_tasks": 100,
+  "task_timeout": 300,
+  "retry_times": 3,
+  "redis_host": "localhost",
+  "redis_port": 6379,
+  "redis_db": 0,
+  "redis_password": null,
+  "use_redis": false,
+  "rabbitmq_host": "localhost",
+  "rabbitmq_port": 5672,
+  "rabbitmq_user": "guest",
+  "rabbitmq_password": "guest",
+  "use_rabbitmq": false,
+  "default_model": "gpt-3.5-turbo",
+  "model_selection_strategy": "availability",
+  "models": {},
+  "webhook_enabled": false,
+  "webhooks": {},
+  "api_host": "0.0.0.0",
+  "api_port": 8000,
+  "enable_api": false
+}
