@@ -13,8 +13,8 @@ from tenacity import (
     retry_if_exception_type
 )
 
-from .models import ModelInfo
-from .logger import get_logger
+from ..models import ModelInfo
+from ..logger import get_logger
 
 logger = get_logger("openai")
 

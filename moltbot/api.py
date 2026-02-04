@@ -8,7 +8,7 @@ from typing import Optional, List, Dict, Any
 from datetime import datetime
 import asyncio
 
-from .moltbot import MoltBot, Task, TaskStatus, ModelInfo
+from . import MoltBot, Task, TaskStatus, ModelInfo
 from .logger import get_logger
 
 logger = get_logger("api")

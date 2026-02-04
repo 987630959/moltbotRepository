@@ -1,7 +1,7 @@
 """
 配置管理模块
 """
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import Dict, Optional, List
 from pathlib import Path
 import json
